@@ -24,3 +24,10 @@ img {
   color: #a749ff;
 
 }
+
+.extraClass:hover .extraTwo,
+.extraClass:hover .extraOne,
+.extraClass:hover .extraThree {
+  margin-bottom: 0px;
+  opacity: 1;
+}
