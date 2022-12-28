@@ -4,13 +4,13 @@ import { AiFillEye } from 'react-icons/ai';
 import { AiOutlineStar } from 'react-icons/ai';
 
 const ProductCard = ({ product }) => {
-    const { name, image, price } = product;
+    const { name, img, price } = product;
 
     return (
         <div>
             <div className='text-center w-[270px] extraClass mb-12'>
-                <div className='relative overflow-hidden h-[200px] object-fill'>
-                    <img src={image} alt="" />
+                <div className='relative overflow-hidden'>
+                    <img src={img} alt="" />
 
                     <div className='absolute w-full flex bottom-0 items-center justify-center left-0'>
 

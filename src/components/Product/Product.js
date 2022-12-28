@@ -7,7 +7,7 @@ const Product = () => {
     const [products, setProducts] = useState([]);
 
     useEffect(() => {
-        fetch('https://course-api.com/react-store-products')
+        fetch('productdata.json')
             .then(res => res.json())
             .then(data => {
                 console.log(data)
