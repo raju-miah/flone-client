@@ -74,7 +74,9 @@ const Header = () => {
                         {
                             user?.uid ?
                                 <>
-                                    <button onClick={handelLogout}>Logout</button>
+                                    <button onClick={handelLogout}
+                                        className='border-[1px] text-[18px] uppercase cursor-pointer text-[#010101] border-solid border-[#a749ff] px-6 py-2 hover:bg-[#a749ff] hover:text-white ease-in-out duration-500'
+                                    >Logout</button>
 
                                 </>
                                 :
